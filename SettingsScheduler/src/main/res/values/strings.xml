@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Settings Scheduler</string>
+    <string name="settings">Settings</string>
+    <string name="enable">Enable Service</string>
+    <string name="disable">Disable Service</string>
+    <string name="done">Save</string>
+    <string name="revert">Revert</string>
+    <string name="delete">Delete</string>
+    <string name="add">New</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">Confirm ?</string>
+    <string name="edit_jobgroup">Edit TaskGroup</string>
+    <string name="enabled_jobgroup">Task is Enabled</string>
+    <string name="disabled_jobgroup">Task is Disabled</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="never">Never</string>
+    <string name="every_day">Every Day</string>
+    <string name="day_concat">", "</string>
+    <string name="label">Label</string>
+    <string name="delete_jobgroup">Delete TaskGroup</string>
+    <string name="save_dialog">Save TaskGroup</string>
+    <string name="jobgroup_settings_main">Time Settings</string>
+    <string name="jobgroup_settings_tasks">Tasks</string>
+    <string name="task_enableWifi">Enable WiFi</string>
+    <string name="task_disableWifi">Disable WiFi</string>
+    <string name="task_enable3G"> Enable Data Connection</string>
+    <string name="task_disable3G"> Disable Data Connection</string>
+    <string name="task_BluetoothOn"> Enable Bluetooth</string>
+    <string name="task_BluetoothOff"> Disable Bluetooth</string>
+</resources>

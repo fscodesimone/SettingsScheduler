@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:title="@string/edit_jobgroup">
+
+    <PreferenceCategory android:title="@string/jobgroup_settings_main">
+    		<CheckBoxPreference android:key="enabled"
+				android:persistent="false"/>
+		    <Preference android:key="time"
+				android:persistent="false"
+				android:title="@string/time"/>
+		    <it.fdesimone.batterysaver.RepeatPreference
+		        android:persistent="false"
+		        android:key="setRepeat"
+		        android:title="@string/repeat" />
+		    <EditTextPreference android:key="label"
+		        android:persistent="false"
+		        android:title="@string/label"
+		        android:dialogTitle="@string/label" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/jobgroup_settings_tasks">
+        <CheckBoxPreference android:key="@string/task_enableWifi" android:title="@string/task_enableWifi"></CheckBoxPreference>
+        <CheckBoxPreference android:key="@string/task_disableWifi" android:title="@string/task_disableWifi"></CheckBoxPreference>
+        <CheckBoxPreference android:key="@string/task_enable3G" android:title="@string/task_enable3G"></CheckBoxPreference>
+        <CheckBoxPreference android:key="@string/task_disable3G" android:title="@string/task_disable3G"></CheckBoxPreference>
+        <CheckBoxPreference android:key="@string/task_BluetoothOn" android:title="@string/task_BluetoothOn"></CheckBoxPreference>
+        <CheckBoxPreference android:key="@string/task_BluetoothOff" android:title="@string/task_BluetoothOff"></CheckBoxPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

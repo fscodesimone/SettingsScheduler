@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="60dip"
+	android:paddingTop="10px"
+	android:paddingBottom="10px"
+	android:paddingLeft="10px">
+	
+	<ImageView
+		android:id="@+id/icon_status"
+		android:layout_width="16dip"
+		android:layout_height="16dip"
+		android:layout_gravity="center_vertical"/>
+	
+    <it.fdesimone.batterysaver.DigitalClock
+		android:id="@+id/digitalClock"
+		android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true">
+
+            <TextView
+            	android:id="@+id/timeDisplay"
+                android:includeFontPadding="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="6dip"
+                android:textSize="28sp"
+                android:textColor="?android:attr/textColorPrimary"/>
+
+            <TextView
+            	android:id="@+id/am_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:textColor="?android:attr/textColorPrimary"/>
+
+            <TextView
+            	android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="8dip"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="?android:attr/textColorTertiary"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <TextView
+        	android:id="@+id/daysOfWeek"
+            android:includeFontPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorSecondary"/>
+
+    </it.fdesimone.batterysaver.DigitalClock>
+
+
+</LinearLayout>
